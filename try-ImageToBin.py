@@ -16,7 +16,7 @@ def _bytes_feature(value):
 writer = tf.python_io.TFRecordWriter("try_to_write")
 
 # filename = ['data/0005.jpg', 'data/0006.jpg', 'data/0007.jpg']
-path = './data'
+path = './prepared'
 filename = os.listdir(path)
 num_examples = len(filename)
 
